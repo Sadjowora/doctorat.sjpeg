@@ -3,6 +3,9 @@ import Link from 'next/link';
 //import Test from 'textNextJs.js';
 import styles from '../styles/Home.module.css';
 import Menue from './components/barreMenue.js';
+import Slide from './components/slider.js';
+import Services from './components/services.js';
+import JointUs from './components/nousRejoindre.js';
 
 export default function Home() {
   return (
@@ -15,7 +18,15 @@ export default function Home() {
         <Menue />
       </>
       <div className={styles.container}>
-          Corps de la page d'accueill..
+          <div>
+                  <Slide />
+              <div className="mb-5">
+                 <Services />
+              </div>
+              <div className="mb-5">
+                <JointUs />
+              </div>
+          </div>
       </div>
       <footer>
         <a
@@ -24,7 +35,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          <img src="/images/logoNoullal.png" alt="Noullal" className={styles.logo} />
         </a>
       </footer>
 
@@ -44,6 +55,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          background-color: darkgray;
         }
         footer img {
           margin-left: 0.5rem;
@@ -53,7 +65,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           text-decoration: none;
-          color: inherit;
+          color: lavender;
         }
         code {
           background: #fafafa;

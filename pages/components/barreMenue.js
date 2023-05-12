@@ -9,10 +9,11 @@ return (
            <title> Noullal </title>
         </Head>
         <main>
-          <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" style={{backgroundColor: '#ffd200'}}>
+          <nav className={"navbar navbar-expand-lg bg-body-tertiary fixed-top "+styles.bgradient}>
             <div className="container-fluid d-flex justify-content-between">
-              <Link className="navbar-brand w-25" href="#">
-                <img src="#" alt="#" width="30" height="24" className="d-inline-block align-text-top"/> Noullal
+              <Link className="navbar-brand w-25" href="/">
+                <img src="/images/logoNoullal.png" alt="#" width="50" height="40" className="d-inline-block rounded align-text-center"/>&nbsp;
+                <label className={styles.title}> Noullal </label>
               </Link>
               <button className="navbar-toggler w-25" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -21,32 +22,41 @@ return (
                 <div className="collapse navbar-collapse " id="navbarNav">
                   <ul className="navbar-nav me-auto my-2 my-lg-0">
                     <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="#">Accueill</a>
+                      <Link className="nav-link active" aria-current="page" href="/">Accueill</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">Services</a>
+                      <Link className="nav-link" href="/services">Services</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">Nous Contacter</a>
+                      <Link className="nav-link" href="/paiement">Paiement</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" href="/paiement">Carrières</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" href="/apropos">Apropos</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" href="/nousContacter">Nous Contacter</Link>
                     </li>
                   </ul>
-                 </div>
-                 <button className="btn btn-primary bg-dark"> Nous Contacter</button>
+                 </div> <button className="btn btn-primary"> Nous Joindre</button>
                 </div>
             </div>
          </nav>
        </main>
       <style jsx>{`
         main {
-          padding: 5rem 0;
+          padding: 2.5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
            }
       `} </style>
      </div>
-
   )
 }
