@@ -1,0 +1,21 @@
+.vocation { padding: 5em 2em; background-color: #f8f8ff;}
+.vocation p{ font-size: 1.1em;}
+.vocation h1{ color: orange;font-weight: 330; margin: 1em 0; font-size: 3.2em;}
+.vocationCard img { width: 100%;
+   -webkit-animation: 1s ease-in 1s move_eye;
+           animation: 1s ease-in 1s move_eye;
+         }
+
+ @-webkit-keyframes move_eye { from { width:80%; } to {width: 100%; }  }
+         @keyframes move_eye { from {  width: 80%; } to { width: 100%; }  }
+.vocationCard {
+   text-align: left;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: .5em;
+   margin-bottom: 6em;
+}
+.vocationFooter { width: 95%;}
+.vocationCard .imgDeux { width: 57%;}
+.vocationCard p { font-weight: 350;}

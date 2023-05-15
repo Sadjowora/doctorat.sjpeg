@@ -21,8 +21,11 @@ function JointUs () {
         <Link href="/" className={styles.jointCard}>
           <img src="/images/bonPort.webp" alt="abordable" />
           <div className="flex-column">
-              <h2 className="m-2"> Devenez chauffeur </h2>
-              <p> Chaque chauffeur Noullal est formé et certifié. Chaque trajet est suivi en temps réel par GPS. Et chaque voyage est assuré. </p>
+              <h2 className="m-2"> Soyez livreur, expéditeur ou destinataire </h2>
+              <p> Sur l’application de livraison de colis WayToMe les utilisateurs peuvent avoir plusieurs casquettes.
+                  Vous avez acheté un meuble sur Leboncoin et souhaitez vous le faire livrer ? Votre ami a oublié son sac et vous souhaitez lui envoyer ?
+                  Vos déplacements vous coûtent cher et vous cherchez une façon de réduire vos frais ?
+                  Avez WayToMe, envoyez, recevez ou livrez des colis ! </p>
           </div>
         </Link>
 

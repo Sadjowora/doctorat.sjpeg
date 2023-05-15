@@ -5,10 +5,10 @@ import { AiOutlineSafety, AiOutlineLike } from 'react-icons/ai';
 function Slide () {
 
   return (
-    <div className={"d-flex p-5 pt-0 justify-content-between "+styles.slideGlobal}>
+    <div className={"d-flex pt-0 justify-content-between "+styles.slideGlobal}>
       <div className="flex-column pt-5">
           <div className={styles.slideInfos}>
-               <h1> Nous delivrons <br/>Faites nous confiance <br/> Donner nous tous </h1>
+               <h1> Nous delivrons <br/>Faites nous confiance <br/> Donner nous tout </h1>
           </div>
           <div className={styles.texte}>
             <p> La prémiere application de livraison rapoide en Guinée. <br/>
@@ -19,7 +19,7 @@ function Slide () {
       <div className={ styles.imagesAcueill }>
          <img src="/images/livreurStoper.png" alt="images du livreur" />
       </div>
-      <div className={"flex-column pt-4 "+styles.axeVocation}>
+      <div className={"flex-column pt-5 "+styles.axeVocation}>
         <div className="mb-1">
           <i><AiOutlineLike /> SUR & CERTIFIE </i>
           <p> Chaque chauffeur Noullal est formé et certifié. Chaque trajet est suivi en temps réel par GPS. Et chaque voyage est assuré. </p>

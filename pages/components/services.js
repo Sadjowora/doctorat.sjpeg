@@ -6,8 +6,8 @@ function Services () {
 
   return (
     <div className={styles.services}>
-      <div className="flex-column p-5 pt-0 justify-content-between">
-       <div className="d-flex justify-content-center mt-5"> <h1> Ce que vous gagner avec nous </h1> </div>
+      <div className="flex-column justify-content-between">
+       <div className="d-flex justify-content-center"> <h1> Ce que vous gagner avec nous ! </h1> </div>
         <div className={"d-flex justify-content-between "+styles.axeVocation}>
 
         <div className={styles.card}>

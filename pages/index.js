@@ -6,13 +6,14 @@ import Menue from './components/barreMenue.js';
 import Slide from './components/slider.js';
 import Services from './components/services.js';
 import JointUs from './components/nousRejoindre.js';
+import Vocation from './components/vocations/vocation.js';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Noullal: Livraison..</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Noullal: Livraison colis</title>
+        <link rel="icon" href="/images/logoNoullal.png" />
       </Head>
       <>
         <Menue />
@@ -22,6 +23,9 @@ export default function Home() {
                   <Slide />
               <div className="mb-5">
                  <Services />
+              </div>
+              <div className="mb-3">
+                  <Vocation />
               </div>
               <div className="mb-5">
                 <JointUs />
