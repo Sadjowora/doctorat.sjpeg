@@ -22,25 +22,22 @@ return (
                 <div className="collapse navbar-collapse " id="navbarNav">
                   <ul className="navbar-nav me-auto my-2 my-lg-0">
                     <li className="nav-item">
-                      <Link className="nav-link active" aria-current="page" href="/">Accueill</Link>
+                      <Link className={"nav-link "+styles.active} aria-current="page" href="/"> Accueill </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/services">Services</Link>
+                      <Link className="nav-link" href="/services"> Services </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/paiement">Paiement</Link>
+                      <Link className="nav-link" href="/paiement"> Carrières </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/paiement">Carrières</Link>
+                      <Link className="nav-link" href="/apropos"> Apropos </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/apropos">Apropos</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" href="/nousContacter">Nous Contacter</Link>
+                      <Link className="nav-link" href="/nousContacter"> Nous Contacter </Link>
                     </li>
                   </ul>
-                 </div> <button className="btn btn-primary"> Nous Joindre</button>
+                 </div> <button className="btn btn-primary"> Nous Joindre </button>
                 </div>
             </div>
          </nav>

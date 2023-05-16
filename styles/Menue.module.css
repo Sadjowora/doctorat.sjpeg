@@ -29,8 +29,25 @@
       /* background-size: 400% 400%;*/
      animation: gradient 15s ease infinite;
      box-shadow: 0px 0px 4px darkgray;
+     padding:0;
    }
-.menueCollapse li a { font-weight:600;}
+.menueCollapse li a {
+  font-weight:510;
+  border-radius: 10px;
+  box-shadow:none;
+  translate: box-shadow .6s; border-radius: .6s;
+ }
+.menueCollapse li a:hover {
+   color: black;
+   border-radius: 8px;
+   box-shadow: 0px 0px 4px #fef86c;
+
+}
+.menueCollapse li .active {
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px #fef86c;
+}
 .menueCollapse {
   width: 65%; text-align: end;
   display: flex;

@@ -7,6 +7,8 @@ import Slide from './components/slider.js';
 import Services from './components/services.js';
 import JointUs from './components/nousRejoindre.js';
 import Vocation from './components/vocations/vocation.js';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { AiFillTwitterSquare, AiFillInstagram } from 'react-icons/ai';
 
 export default function Home() {
   return (
@@ -24,7 +26,7 @@ export default function Home() {
               <div className="mb-5">
                  <Services />
               </div>
-              <div className="mb-3">
+              <div className="mb-5">
                   <Vocation />
               </div>
               <div className="mb-5">
@@ -33,14 +35,40 @@ export default function Home() {
           </div>
       </div>
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/images/logoNoullal.png" alt="Noullal" className={styles.logo} />
-        </a>
+         <div>
+             <a
+               href="https://noullal.com"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="d-flex"
+             >
+               <img src="/images/logoNoullal.png" alt="Noullal" className={styles.logo} />
+               <h1> Noullal </h1>
+             </a>
+
+              <ul className="d-flex justify-content-between p-2">
+                <li className="nav-item">
+                  <Link className="nav-link" href="/services"> Services </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" href="/paiement"> Carrières </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" href="/apropos"> Apropos </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" href="/nousContacter"> Nous Contacter </Link>
+                </li>
+              </ul>
+              &nbsp; &nbsp;
+              <span>
+                  <a href="https://www.fabebook/noullal" target="_blank"> <FaFacebookSquare /> </a>
+                  <a href="https://www.twitter.com/noullal" target="_blank" > <AiFillTwitterSquare /> </a>
+                  <a href="https://www.intagram.com/noullal" target="_blank" > <AiFillInstagram /> </a>
+
+              </span>
+         </div>
+        <p>   Powered by {' '} Noullal 2023. </p>
       </footer>
 
       <style jsx>{`
@@ -55,21 +83,29 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
+          padding: 0.5em;
           border-top: 1px solid #eaeaea;
           display: flex;
-          justify-content: center;
+          justify-content: start;
+          flex-direction: column;
           align-items: center;
           background-color: darkgray;
         }
+        footer li a:hover { color: Black;}
+        footer h1 { color: Black;}
+        footer span { font-size: 1.5em;}
+        footer ul { width: 65%;}
         footer img {
           margin-left: 0.5rem;
         }
-        footer a {
+        footer div {
+          width: 80%;
           display: flex;
-          justify-content: center;
+          justify-content: between;
           align-items: center;
           text-decoration: none;
           color: lavender;
+          margin-bottom: 0.8em;
         }
         code {
           background: #fafafa;

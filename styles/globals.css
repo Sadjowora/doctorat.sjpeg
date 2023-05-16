@@ -7,7 +7,7 @@ body {
    background-color: #fff;
    background-position: center;
    background-size: cover;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat;   
 }
 
 @keyframes gradient {
@@ -21,6 +21,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
 
 a {
   color: inherit;

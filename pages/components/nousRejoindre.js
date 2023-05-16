@@ -6,34 +6,25 @@ function JointUs () {
 
   return (
     <div className={styles.services}>
-      <div className="flex-column p-5 pt-0 justify-content-between">
-       <div className="d-flex justify-content-center mt-5"> <h1> Nous rejoindre </h1> </div>
+      <div className="flex-column pt-0 justify-content-between">
+       <div className="d-flex justify-content-center"> <h1 style={{color: 'gray'}}> Nous rejoindre </h1> </div>
         <div className={"d-flex justify-content-between "+styles.axeVocation}>
 
         <Link href="/" className={styles.jointCard}>
-          <img src="/images/carriere.svg" alt="abordable" />
-          <div className="flex-column">
-              <h2 className="m-2"> Carrières </h2>
+          <img src="/images/carriere2.avif" alt="abordable" />
+          <div className={styles.bodyCard+" flex-column"}>
+              <h2 className="mt-2 mb-3"> Carrières </h2>
               <p> Chaque chauffeur Noullal est formé et certifié. Chaque trajet est suivi en temps réel par GPS. Et chaque voyage est assuré. </p>
+              <div className="d-flex justify-content-center p-3">   <button className="btn btn-danger"> Postuler Chez nous </button> </div>
            </div>
         </Link>
 
         <Link href="/" className={styles.jointCard}>
-          <img src="/images/bonPort.webp" alt="abordable" />
-          <div className="flex-column">
-              <h2 className="m-2"> Soyez livreur, expéditeur ou destinataire </h2>
-              <p> Sur l’application de livraison de colis WayToMe les utilisateurs peuvent avoir plusieurs casquettes.
-                  Vous avez acheté un meuble sur Leboncoin et souhaitez vous le faire livrer ? Votre ami a oublié son sac et vous souhaitez lui envoyer ?
-                  Vos déplacements vous coûtent cher et vous cherchez une façon de réduire vos frais ?
-                  Avez WayToMe, envoyez, recevez ou livrez des colis ! </p>
-          </div>
-        </Link>
-
-        <Link href="/" className={styles.jointCard}>
-          <img src="/images/securite.webp" alt="abordable" />
-          <div className="flex-column">
-              <h2 className="m-2"> Devenez partenaires </h2>
+          <img src="/images/partenariat.png" alt="abordable" />
+          <div className={styles.bodyCard+" flex-column"}>
+              <h2 className="mt-2 mb-3"> Devenez partenaires </h2>
               <p> Chaque chauffeur Noullal est formé et certifié. Chaque trajet est suivi en temps réel par GPS. Et chaque voyage est assuré. </p>
+            <div className="d-flex justify-content-center p-3">   <button className="btn btn-info"> Nous contacter </button> </div>
           </div>
         </Link>
 

@@ -1,21 +1,32 @@
-.vocation { padding: 5em 2em; background-color: #f8f8ff;}
+.vocation {  padding: 1.5em 0; }
 .vocation p{ font-size: 1.1em;}
-.vocation h1{ color: orange;font-weight: 330; margin: 1em 0; font-size: 3.2em;}
-.vocationCard img { width: 100%;
+.vocation h1{ color: gray; font-weight: 330; margin: 1em 0; font-size: 3.2em;}
+/*.vocationCard img { width: 100%;
    -webkit-animation: 1s ease-in 1s move_eye;
            animation: 1s ease-in 1s move_eye;
-         }
+         }  */
 
- @-webkit-keyframes move_eye { from { width:80%; } to {width: 100%; }  }
-         @keyframes move_eye { from {  width: 80%; } to { width: 100%; }  }
+ /* @-webkit-keyframes move_eye { from { width:80%; } to {width: 100%; }  }
+         @keyframes move_eye { from {  width: 80%; } to { width: 100%; }  } */
 .vocationCard {
    text-align: left;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding: .5em;
-   margin-bottom: 6em;
+   margin-bottom: 8em;
+   padding: 3em 5em;
+   background-color: #f8f8ff;
 }
-.vocationFooter { width: 95%;}
-.vocationCard .imgDeux { width: 57%;}
+
+.vocationCardDeux {
+   text-align: left;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 2em;
+   padding: 1em 5em;
+   background-color: #fff;
+}
+.vocationCard .imgDeux, .vocationCardDeux .imgDeux{ width: 27%;}
+.vocationCardDeux .vocationFooter { width: 65%;}
 .vocationCard p { font-weight: 350;}
