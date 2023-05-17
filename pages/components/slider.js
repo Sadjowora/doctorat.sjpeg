@@ -5,7 +5,7 @@ import { AiOutlineSafety, AiOutlineLike } from 'react-icons/ai';
 function Slide () {
 
   return (
-    <div className={"d-flex pt-0 justify-content-between "+styles.slideGlobal}>
+    <div className={"d-flex pt-5 pt-0 justify-content-between "+styles.slideGlobal}>
       <div className="flex-column pt-5">
           <div className={styles.slideInfos}>
                <h1> Nous delivrons <br/>Faites nous confiance <br/> Donner nous tout </h1>
