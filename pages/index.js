@@ -22,7 +22,9 @@ export default function Home() {
       </>
       <div className={styles.container}>
           <div>
+              <div>
                   <Slide />
+              </div>
               <div className="mb-5">
                  <Services />
               </div>
@@ -46,29 +48,26 @@ export default function Home() {
                <h1> Noullal </h1>
              </a>
 
-              <ul className="d-flex justify-content-between p-2">
+              <ul className="d-flex justify-content-around p-2">
                 <li className="nav-item">
-                  <Link className="nav-link" href="/services"> Services </Link>
+                  <Link className="nav-link" href="/"> Carrières </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/paiement"> Carrières </Link>
+                  <Link className="nav-link" href="/components/aboutUs"> Apropos </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="/apropos"> Apropos </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" href="/nousContacter"> Nous Contacter </Link>
+                  <Link className="nav-link" href="/components/contactUs"> Nous Contacter </Link>
                 </li>
               </ul>
               &nbsp; &nbsp;
               <span>
+                  <strong> Nous suivre </strong>
                   <a href="https://www.fabebook/noullal" target="_blank"> <FaFacebookSquare /> </a>
                   <a href="https://www.twitter.com/noullal" target="_blank" > <AiFillTwitterSquare /> </a>
                   <a href="https://www.intagram.com/noullal" target="_blank" > <AiFillInstagram /> </a>
-
               </span>
          </div>
-        <p>   Powered by {' '} Noullal 2023. </p>
+        <p> Noullal 2023. All rights reserved. </p>
       </footer>
 
       <style jsx>{`

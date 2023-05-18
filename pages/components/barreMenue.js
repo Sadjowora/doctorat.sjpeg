@@ -25,16 +25,13 @@ return (
                       <Link className={"nav-link "+styles.active} aria-current="page" href="/"> Accueill </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/services"> Services </Link>
+                      <Link className="nav-link" href="/"> Carrières </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/paiement"> Carrières </Link>
+                      <Link className="nav-link" href="/components/aboutUs"> Apropos </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="/apropos"> Apropos </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" href="/nousContacter"> Nous Contacter </Link>
+                      <Link className="nav-link" href="/components/contactUs"> Nous Contacter </Link>
                     </li>
                   </ul>
                  </div> <button className="btn btn-primary"> Nous Joindre </button>
@@ -44,7 +41,7 @@ return (
        </main>
       <style jsx>{`
         main {
-          padding: 2.5rem 0;
+          padding: 2.1rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;

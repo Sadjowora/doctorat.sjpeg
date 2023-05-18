@@ -1,0 +1,22 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  padding: 5em;
+}
+.aboutBody { padding: 1rem 2rem 1rem 2rem;}
+.aboutBody p{ font-size: 1.4em; color: gray; line-height: 1.4em; width: 90%; font-weight: 330;}
+.imagesApropos  { width: 40%; }
+.imagesApropos  img{  width: 100%;}
+.title { color: gray; font-size: 2em; font-weight: 350; margin: 1em 0 1.2em 0;}
+.title h1{ color:  orange; font-size: 1.8em; font-weight: 800;}
+.title small { color: #f0c300;}
+.footer h4{ color: Black;  font-size: 2em; font-weight: 400;}
+.footer small{ color: gray;  font-size: 1.2em; font-weight: 320;}
+.footer {
+  padding: 5em 5em 2em 2em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}

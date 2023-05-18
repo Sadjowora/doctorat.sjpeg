@@ -1,0 +1,10 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  padding: 5em;
+}
+.form { width: 70%; margin-top: 2.2em;}
+.title { color: gray; font-size: 2em; font-weight: 350;}
+.title h1{ color: Black; font-size: 1.8em; font-weight: 330;}

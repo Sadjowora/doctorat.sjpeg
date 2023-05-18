@@ -13,18 +13,18 @@
 height: 100%; margin-top: 0;
 padding-top:
 } */
-.slideGlobal { background-color: #f8f8ff; padding: 5em;}
-.texte p{ margin-top: 1.5em; color: gray;}
-.axeVocation {width:20%; margin-top: 0; padding-top: 0;}
-.axeVocation div i{font-size: 1.5em; color: orange}
-.axeVocation div p{ font-size: 14px; font-weight: 300;}
+.slideGlobal { background-color: #f8f8ff; padding: 5em 5em 1em 5em;}
+.texte p{ margin-top: 1.2em; color: gray;}
+.axeVocation {width:22%; margin: 0; padding: 0;}
+.axeVocation div i{font-size: 4em; color: orange;}
+.axeVocation div h3{font-size: 1.5em; color: gray; font-weight: bold;}
+.bodyAxeVocation{ font-size: 14px; font-weight: 300;}
 .imagesAcueill img {width: 23em;}
-.imagesAcueill {
+.imagesAcueill img{
   -webkit-animation: 1s linear 0s infinite alternate move_eye;
           animation: 1s linear 0s infinite alternate move_eye;
           /*background-image:linear-gradient(to bottom, #f8f8ff 80%, rgba(0, 0, 0, 0.200));
           padding-bottom: 0; */
-          padding-top: 1em;
         }
 @-webkit-keyframes move_eye { from { width: 22.9em; } to {width: 23em; }  }
         @keyframes move_eye { from {  width: 22.9em; } to { width: 23em; }  }
