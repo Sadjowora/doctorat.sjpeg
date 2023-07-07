@@ -1,0 +1,19 @@
+.admissionContainer {
+	margin: 3em 5em 1em 3em;
+	background-color: #f8f8ff;
+	padding: 3em 1em;
+}
+.actualitesContainer {
+	margin: 1.8em 5em 1em 3em;
+	background-color: #fff;
+	padding: 3em 1em;
+}
+.admissionContainer h1 { color: #2e86c1; }
+.admissionContainer h3 { color: darkblue; }
+.admissionContainer p, .admissionContainer ul li {
+	font-size: 1.2em;
+}
+.social { font-size: 2em; }
+.social .linkUn:hover {color: #2e86c1;  }
+.social .linkDeux:hover {color: #2e86c1;  }
+.social .linkTrois:hover {color: #2e86c1;  }

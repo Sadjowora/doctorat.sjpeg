@@ -1,0 +1,13 @@
+.galerie  h1{ color: dimgray; }
+.galerie  {
+   margin: 1.5em 3em 3em 3em;
+}
+.galerieSlider span{ color: #000; }
+.galerieSlider img { width:100%; } 
+.galerieSlider {
+   width: 59%; 
+   height: auto;
+   border-right: 4px solid gray;
+}
+.lienImg { width: 47%; }
+.lienImg img{ border-radius: 8px; }

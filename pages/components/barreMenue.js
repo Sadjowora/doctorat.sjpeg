@@ -1,47 +1,67 @@
 import Head from 'next/head';
 import styles from '../../styles/Menue.module.css';
 import Link from 'next/link';
+import { AiOutlineHome, AiFillPhone, AiOutlineMail } from 'react-icons/ai';
+
 export default function Menue (){
 
 return (
     <div>
         <Head>
-           <title> Noullal </title>
+           <title> Ecole Doctorale </title>
         </Head>
         <main>
           <nav className={"navbar navbar-expand-lg bg-body-tertiary fixed-top "+styles.bgradient}>
-            <div className="container-fluid d-flex justify-content-between">
-              <Link className="navbar-brand w-25" href="/">
-                <img src="/images/logoNoullal.png" alt="#" width="50" height="40" className="d-inline-block rounded align-text-center"/>&nbsp;
-                <label className={styles.title}> Noullal </label>
+            <div className="container-fluid d-flex justify-content-between pl-3 pr-3">
+              <Link className="navbar-brand w-50 d-flex" href="/">
+                <img src="/images/logo_ecole_doctorale.jpg" alt="#" width="80" height="50" className="d-inline-block rounded align-text-center"/>&nbsp;
+                <div className="flex-column">
+                       <label className={styles.title}> ED-SJPEG / UGLC-SC</label><br/>
+                       <small style={{fontSize: "0.7em", color: " #ebf5fb"}} > L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion </small>                     
+                </div>
               </Link>
               <button className="navbar-toggler w-25" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className={styles.menueCollapse}>
-                <div className="collapse navbar-collapse " id="navbarNav">
+                <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav me-auto my-2 my-lg-0">
                     <li className="nav-item">
-                      <Link className={"nav-link "+styles.active} aria-current="page" href="/"> Accueill </Link>
+                      <Link className={"nav-link "+styles.active} aria-current="page" href="/"> Université </Link>
                     </li>
+                    <li className="nav-item"> 
+                       <Link className="nav-link" href="/components/formations"> Formation doctorale </Link>
+                    </li>                   
                     <li className="nav-item">
-                      <Link className="nav-link" href="/"> Carrières </Link>
-                    </li>
+                      <Link className="nav-link" href="/components/showActualites"> Actualités </Link>
+                    </li>                    
                     <li className="nav-item">
-                      <Link className="nav-link" href="/components/aboutUs"> Apropos </Link>
-                    </li>
+                      <Link className="nav-link" href="/components/galerie"> Galérie </Link>
+                    </li> 
                     <li className="nav-item">
-                      <Link className="nav-link" href="/components/contactUs"> Nous Contacter </Link>
+                      <Link className="nav-link" href="/components/admission"> Admission </Link>
                     </li>
                   </ul>
-                 </div> <button className="btn btn-primary"> Nous Joindre </button>
+                 </div> 
+                <div className="dropstart">
+                    <a className="btn btn-outline-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li><span className="dropdown-item"><AiOutlineHome /> Sonfonia - Conakry, République de Guinée </span></li>
+                      <li><hr className="dropdown-divider"/></li>
+                      <li><span className="dropdown-item" href="/formation"><AiFillPhone /> (+224)666715653 / 628637599</span></li>
+                      <li> <a className="dropdown-item" href="mailto: alydiaby2002@yahoo.fr "> <AiOutlineMail /> alydiaby2002@yahoo.fr </a></li>
+                      <li><a className="dropdown-item" href="mailto: ocisse698@gmail.com"><AiOutlineMail /> ocisse698@gmail.com</a></li>                           
+                    </ul>
+                  </div>
                 </div>
             </div>
          </nav>
        </main>
       <style jsx>{`
         main {
-          padding: 2.1rem 0;
+          padding: 2.1rem;
           flex: 1;
           display: flex;
           flex-direction: column;

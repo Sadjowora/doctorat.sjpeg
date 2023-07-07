@@ -6,16 +6,41 @@
  }
 .slideInfos h1{
   font-size: 2.2em;
-  color: gray;
+  color: #2e86c1;
   font-weight: 800;
+}
+.containerSlide {
+  height: 35.8em;
+  margin-top: 1.1em;
 }
 /*.slideGlobal { background-image:linear-gradient(to bottom,  rgba(0, 0, 0, 0.100) 10%,rgba(0, 0, 0, 0.100)), url(/images/bg2.jpg);
 height: 100%; margin-top: 0;
 padding-top:
 } */
-.slideGlobal { background-color: #f8f8ff; padding: 5em 5em 1em 5em;}
-.texte p{ margin-top: 1.2em; color: gray;}
-.axeVocation {width:22%; margin: 0; padding: 0;}
+.slideGlobal { background-color: #fff; margin: 1em 5.5em;  width: 90%; padding: 0.5em;}
+.axeVocation p{ margin-top: 1.2em; 
+  color: dimgray; 
+  line-height: 1.7em;
+  font-size: 1.2em;
+   }
+.actualites { 
+  border:1px solid #2e86c1; 
+  border-radius:8px; 
+  width:95%;
+  background-color: #f8f8ff;
+  } 
+.actualites h1 { 
+  color: #fff; 
+  width: 100%; 
+  text-align:center; 
+  padding:0.2em;
+   }
+.actualites .bg-second { 
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #2e86c1;
+   }
+.axeVocation {margin: 0; padding: 0; width: 60%; }
 .axeVocation div i{font-size: 4em; color: orange;}
 .axeVocation div h3{font-size: 1.5em; color: gray; font-weight: bold;}
 .bodyAxeVocation{ font-size: 14px; font-weight: 300;}
@@ -28,3 +53,16 @@ padding-top:
         }
 @-webkit-keyframes move_eye { from { width: 22.9em; } to {width: 23em; }  }
         @keyframes move_eye { from {  width: 22.9em; } to { width: 23em; }  }
+.actualitesContainer {
+  overflow-y: scroll;
+  height: 470px;
+}
+.cardActualites label{ color: dodgerblue; font-size:1em;  }
+.cardActualites h3{ font-size: 1.2em; font-weight:500;  }
+.cardActualites:hover{ border-radius:8px; border: 1px solid dimgray; background-color: lavender;}
+.cardActualites { 
+  margin-bottom: 1em;
+  border: 1px solid #f8f8ff; 
+  padding: 0.3em;
+  width: 90%; 
+ }

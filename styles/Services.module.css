@@ -1,13 +1,21 @@
-.services { padding: 0 3em 5em 3em; }
+.services { padding: 0 3em 0.5em 3em; }
 .services h1{ color: gray; font-weight: 330; margin: 1em 0 2em 0; font-size: 3.2em;}
 .services img { width: 11em;}
 .card { text-align: left;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 1em;
-  width: 33%;
+  width: 20em;
 }
+.card:hover {
+  box-shadow: 0px 0px 8px darkgray; color: gray;
+  border-radius: 8px;
+  }
+.card img { 
+  width:100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  }
 .jointCard img{ width: 40%;}
 .jointCard {
    text-align: left;
@@ -23,4 +31,4 @@
 .jointCard .bodyCard{ width: 57%;}
 .jointCard:hover { box-shadow: 0px 0px 8px darkgray; color: gray;}
 .card, .jointCard p { font-weight: 350;}
-.axeVocation { margin-top: 2em;}
+.axeVocation { margin-top: 0.5em;}

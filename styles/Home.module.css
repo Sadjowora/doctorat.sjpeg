@@ -35,7 +35,8 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
-
+.listeFilliere {line-height:1.8em; font-size:1em} 
+.listeFilliere a:hover{ color: #2e86c1 }
 .grid {
   display: flex;
   align-items: center;
@@ -46,6 +47,7 @@
   margin-top: 3rem;
 }
 
+.linkTitle { color:#000; font-size:1.4em; }
 .card {
   margin: 1rem;
   flex-basis: 45%;
@@ -74,11 +76,10 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 3em;
-  border-radius: 6px;
+} 
+.logo { 
+  width: 8em;
+  border-radius: 6px; 
 }
 
 @media (max-width: 600px) {

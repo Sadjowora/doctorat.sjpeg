@@ -1,0 +1,23 @@
+.listFormation li h5{
+	font-weight: 400;
+	color: darkblue;
+}
+.formation {
+	margin: 2.5em 5em 0.2em 5em;
+}
+.formation p { 
+	font-size: 1.2em;
+ }
+.formation .listFormation li:hover {
+   background-color: gainsboro;
+ }
+.formation .listFormation li{
+	 background-color: #f8f8ff;
+	 padding: 0.1em;
+	 margin-bottom: 0.1em;
+ }
+.formation .listFormation { 
+	border-radius: 8px;
+	border: 1px solid dodgerblue;
+	padding: 0.5em;
+ }
