@@ -16,12 +16,12 @@ const Footer = ()=>{
 	               <h1>ED-SJPEG </h1>
 	             </a>
 
-	              <ul className="d-flex justify-content-between m-2">
+	              <ul className="d-flex justify-content-between m-2 ml-0">
 	                <li className="nav-item w-50">
-	                  <p className="nav-link"> 
+	                  <div className="nav-link flex-column"> 
 	                    <h3> L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion (EDJPEG) </h3>                     
-	                    <strong style={{color: "#000"}}> Adresse: </strong> <AiOutlineHome /> Sonfonia - Conakry, République de Guinée
-	                  </p>
+	                    <p> <strong style={{color: "#000"}}> Adresse: </strong> <AiOutlineHome /> Sonfonia - Conakry, République de Guinée </p>
+	                  </div>
 	                </li>
 	                <li className={"nav-item flex-column "+styles.listeFilliere}>
 	                  <h4 className={styles.linkTitle} > FORMATIONS </h4>

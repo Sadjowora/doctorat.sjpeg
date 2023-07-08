@@ -31,10 +31,10 @@ function Admission (){
 			           </div>
 			          </div>
 			    	 <p>
-			    	  Les Admissions à l'Ecole Doctorale des Sciences Juridiques, Politiques, Economiques et de Gestion commence par un appel
-			    	  à candidature de la direction. Ensuit les candidats bourssier ou pas sont inviter à deposer leur dossiers, qui seront étudier
+			    	  Les Admissions à l'Ecole Doctorale des Sciences Juridiques, Politiques, Economiques et de Gestion commencent par un appel
+			    	  à candidature de la direction. Ensuite les candidats boursiers et non boursiers sont invités à déposer leurs dossiers, qui seront étudiés
 			    	  par l'instance charger au admission. 
-			    	  Les resultas seront seront communiquer aux futurs etudiants. La derniers appel à candidature est:
+			    	  Les résultats seront communiqués aux futurs étudiants. La dernière appel à candidature est:
 			    	 </p>			       
 			        <h3 className="mb-3"> APPEL A CANDIDATURE 2023 </h3>
 				   <div>

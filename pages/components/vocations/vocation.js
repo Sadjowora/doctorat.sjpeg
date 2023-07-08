@@ -9,7 +9,7 @@ function Vocation () {
             <div className={styles.vocationCard}>
               <div className="flex-column w-75">
                   <h1> Souhaiterez vous être <strong style={{color:"#2e86c1"}}>  doctorant </strong> Chez nous <strong style={{color:"#2e86c1"}}> Deposer votre candidature </strong> Maintenant. </h1>
-                   <p> Pour effectuer un doctorat au sein de notre école, il vous faut, avant toute chose, consulter nos critères d’admission. Nous attirons en particulier votre attention sur le fait que nous requérons que les candidats aient effectué des parcours académiques de haute qualité comme une mention en MASTER, un note de mémoire/rapport de stage elévé. </p>
+                   <p> Pour effectuer un doctorat au sein de notre école, il vous faut, avant toute chose, consulter nos critères d’admission. Nous attirons en particulier votre attention sur le fait que nous demandons que les candidats aient effectué des parcours académiques de haute qualité comme une mention en MASTER, un note de mémoire/rapport de stage convainquant. </p>
                    <div className="d-flex justify-content-between w-50"> 
                      <Link href="/components/admission" className="btn btn-outline-primary mt-4"> Candidater </Link>
                      <div className="nav-item dropdown mt-4">

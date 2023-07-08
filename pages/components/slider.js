@@ -7,7 +7,7 @@ import { MdAccessible } from 'react-icons/md';
 function Slide () {
 
 return (<div className="flex-column"> 
-        <div id="carouselExampleAutoplaying" className="carousel slide " data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
           <div className={"carousel-inner "+styles.containerSlide}>             
             <div className="carousel-item active">
               <img src="images/neuPhotos/slide-01.jpg" className="d-block w-100" alt="..."/>
@@ -59,11 +59,11 @@ return (<div className="flex-column">
                   Créée en 2017 l’Ecole doctorale « SJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
                   le Droit, la Science Politique, les Sciences Économiques et les Sciences de Gestion. 
                   Sa vocation pluridisciplinaire lui permet de développer des synergies entres juristes, politistes, économistes et gestionnaires qui
-                  peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes. ELle compte 78 personne en sont effectifs.
+                  peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes. Elle compte 78 personnes en son effectif.
                 </p> 
                 <div>
                   <p>
-                    À chaque doctorant admis au sein de l’ED-DESPEG, une formation pluridisciplinaire est offerte qui est conçue et organisée pour améliorer l’apprentissage de la recherche ainsi que pour favoriser le développement de recherches répondant aux grands défis sociétaux dont la révolution numérique, la transition écologique, et les nouveaux défis de la mondialisation.
+                    À chaque doctorant admis au sein de l’ED-DESPEG, une formation pluridisciplinaire est offerte qui est conçue et organisée pour améliorer l’apprentissage de la recherche ainsi que pour favoriser le développement de recherche répondant aux grands défis sociétaux dont la révolution numérique, la transition écologique, et les nouveaux défis de la mondialisation.
                   </p>
                 </div> 
                 <div>

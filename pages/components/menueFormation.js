@@ -17,7 +17,7 @@ const MenueFormation = ({...props})=>{
                       </li> 
                        <li>
                           <Link href="/components/admission"> 
-                             <h5 className="mb-2"> Sincrire chez nous </h5>
+                             <h5 className="mb-2"> S'incrire chez nous </h5>
                           </Link> 
                       </li>
                    </ul>
