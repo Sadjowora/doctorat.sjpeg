@@ -52,7 +52,7 @@ function Formation () {
                       </li>
                 </ul>        
           </div> 
-          </div>²
+          </div>
         <div className={styles.containtBodyFormation}>
        <div>
         <h1 className="mb-3" style={{borderRadiusTop: "8px", fontWeight:"300", color: "dodgerblue", padding: "0.2em"}} > Espace Formations </h1>
@@ -60,17 +60,19 @@ function Formation () {
           <img src="/images/doctorant.jpg" alt="photoDoctorant" />
         </div>
         <div className="mt-3 mb-3">
-          <p>
-          <strong className="mb-3">
-            La formation doctorale est une formation complémentaire au travail de recherche. 
-          Le doctorant construit son projet professionnel, tout au long de la préparation de son doctorat. 
-          De nombreuses formations lui sont proposées pour lui permettre d’enrichir, développer et valoriser ses compétences.
-          </strong><br/><br/>
+          <div>
+            <p>
+            <strong className="mb-3">
+              La formation doctorale est une formation complémentaire au travail de recherche. 
+              Le doctorant construit son projet professionnel, tout au long de la préparation de son doctorat. 
+              De nombreuses formations lui sont proposées pour lui permettre d’enrichir, développer et valoriser ses compétences.
+              </strong>
+            </p><br/><br/>
             <p>
             Tous les doctorants doivent justifier, à l'issue du cycle doctoral, d'un suivi de formations correspondant aux heures forfaitaires sur toute la durée de la thèse.
             Il est vivement recommandé de suivre des formations dès la première année de thèse pour deux raisons :
             </p>
-          </p>
+          </div>
         </div> 
           <ul className="list-group">
              <li className="list-group-item list-group-item-dark">
