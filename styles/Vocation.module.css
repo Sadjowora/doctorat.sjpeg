@@ -32,8 +32,18 @@
    width: 90%;
  }
 .partenaires {
-   padding: 0.8em 0.2em; 
+   padding: 0.8em 0.2em;   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
  }
+
+.listPartenaires {   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+} 
+
 .partenaires h3 { 
    color: dimgray;
  }
@@ -48,4 +58,33 @@
 }
 .vocationCard .imgDeux, .vocationCardDeux .imgDeux{ width: 27%;}
 .vocationCardDeux .vocationFooter { width: 65%;}
-.vocationCard p { font-weight: 350;}
+.vocationCard p { font-weight: 350; font-size: 1.3em; color: dimgray;}
+.textJoignerNous { width: 75%; }
+
+@media (max-width: 600px) {
+ .vocation h1{ color: gray; font-weight: 330; margin-bottom: 0.6em; font-size: 2.5em;}
+ .vocationCard {
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-bottom: 1em;
+   padding: 0.5em;
+   background-color: #f8f8ff; 
+  }
+  .vocationCard p { font-weight: 350; font-size: 1.1em; color: dimgray;}
+  .textJoignerNous { width: 99%; margin-bottom:0.8em; }
+  .partenaires div li {
+   width: 100%; padding: 0.2em;
+   border-radius: 8px;
+   font-size: 1.2em;
+   box-shadow: 0px 0px 8px darkgray; color: gray;
+   margin-bottom: 0.5em;
+ }
+ .partenaires, .listPartenaires {
+   padding: 0.2em 0.5em;   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+}

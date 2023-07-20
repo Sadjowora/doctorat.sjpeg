@@ -18,23 +18,16 @@ function Admission (){
 	              <Menue />
 	            </>
 	          <div className={"d-flex justify-content-center "+styles.admissionContainer} > 
-			    <div className="w-75">
-			       <div className="d-flex justify-content-between"> 
+			    <div className={styles.bodyAdmission} >
+			       <div className="d-flex justify-content-between flex-wrap"> 
 			    	 <h1 className="mb-3"> ADMISSION </h1>
-			    	  <div className="d-flex justify-content-between">
-			            <div className={styles.social} >
-		            	  <Link href="#" className={styles.linkUn} > <AiFillFacebook /> </Link>
-		                  <Link href="#" className={styles.linkDeux} > <AiFillTwitterSquare /> </Link>
-		                  <Link href="#" className={styles.linkTrois} > <AiFillLinkedin /> </Link>
-			            </div>
-			            <div> <a href="mailto: alydiaby2002@yahoo.fr" className="btn btn-outline-success m-2"><FiMail /> Nous ecrire </a> </div>
-			           </div>
+			            <div> <a href="mailto: uglcedsjpeg@gmail.com" className="btn btn-outline-success m-2"><FiMail /> Nous ecrire par mail </a> </div>
 			          </div>
 			    	 <p>
 			    	  Les Admissions à l'Ecole Doctorale des Sciences Juridiques, Politiques, Economiques et de Gestion commencent par un appel
-			    	  à candidature de la direction. Ensuite les candidats boursiers et non boursiers sont invités à déposer leurs dossiers, qui seront étudiés
+			    	  à candidature de la Direction. Ensuite les candidats boursiers et non boursiers sont invités à déposer leurs dossiers, qui seront étudiés
 			    	  par l'instance charger au admission. 
-			    	  Les résultats seront communiqués aux futurs étudiants. La dernière appel à candidature est:
+			    	  Les résultats seront communiqués aux futurs étudiants. Le dernière appel à candidature est:
 			    	 </p>			       
 			        <h3 className="mb-3"> APPEL A CANDIDATURE 2023 </h3>
 				   <div>
@@ -43,11 +36,11 @@ function Admission (){
 				   </div>	
 				   <h3> DOSSIERS A FOURNIR </h3>
 				   <ul>
-				   		<li> * Une demande manuscrite adressé au Recteur de l'université.</li>
+				   		<li> * Une demande manuscrite adressée au Recteur de l'université.</li>
 				   		<li> * Une copie légalisée de l'extrait de naissance. </li>
 				   		<li> * Une copie legalisée du certificat de nationalité </li>
 				   		<li> * Une attestation de bourse pour les boursiers de l'Etat.</li>
-				   		<li> * Une engagement des frais de scolarité assorti d'un échéantier irrevocable pour les candidats indépendants.</li>
+				   		<li> * Un engagement des frais de scolarité assorti d'un échéantier irrevocable pour les candidats indépendants.</li>
 				   		<li> * Un curriculum vitae. </li>
 				   		<li> * Le projet de recherche (15 pages au moins). </li>
 				   		<li> * Les copies légalisées des relevés de notes et des diplômes de Bac, Licence/Maitrise et Master.</li>				   		

@@ -4,20 +4,20 @@ import { AiFillTwitterSquare, AiFillInstagram, AiOutlineMail, AiFillPhone, AiOut
 import Link from 'next/link'
 const Footer = ()=>{
 	return (<div>
-			<footer>
+			<footer className={styles.footer} >
 	          <div>
 	             <a
 	               href="https://noullal.com"
 	               target="_blank"
 	               rel="noopener noreferrer"
-	               style={{width:"14%"}}
+	               className={styles.linkFooter}
 	             >
 	               <img src="/images/logo_ecole_doctorale.jpg" alt="Noullal" className={styles.logo} />
-	               <h1>ED-SJPEG </h1>
+	               <h1> ED-SJPEG </h1>
 	             </a>
 
-	              <ul className="d-flex justify-content-between m-2 ml-0">
-	                <li className="nav-item w-50">
+	              <ul className={"m-2 ml -0 "+styles.lienFooter}>
+	                <li className={"nav-item "+styles.titleEcoleFooter} >
 	                  <div className="nav-link flex-column"> 
 	                    <h3> L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion (EDJPEG) </h3>                     
 	                    <p> <strong style={{color: "#000"}}> Adresse: </strong> <AiOutlineHome /> Sonfonia - Conakry, République de Guinée </p>
@@ -32,17 +32,13 @@ const Footer = ()=>{
 	                </li>
 	                <li className="nav-item"> 
 	                    <h4 className={styles.linkTitle}> NOUS CONTACTER </h4>
-	                    <small> <AiFillPhone /> (+224)666715653 / 628637599  </small><br/>
-	                    <small> <AiOutlineMail /> alydiaby2002@yahoo.fr <br/> <AiOutlineMail /> ocisse698@gmail.com  </small> 
-	                </li>
-	                <li className="flex-column">
-	                   <h4 className={styles.linkTitle}> NOUS SUIVRE </h4><br/>
-	                   <span className="flex-column">
-	                      <a href="https://www.fabebook/noullal" target="_blank"> <FaFacebookSquare /> </a>
-	                      <a href="https://www.twitter.com/noullal" target="_blank" > <AiFillTwitterSquare /> </a>
-	                      <a href="https://www.intagram.com/noullal" target="_blank" > <AiFillInstagram /> </a>
-	                   </span>
-	                </li>
+	                     <small> <AiFillPhone /> (+224)666715653 / 628637599  </small><br/>	                    
+	                     <small> 
+	                      <a href="mailto: uglcedsjpeg@gmail.com"> <AiOutlineMail />  uglcedsjpeg@gmail.com  </a> <br/>
+	                      <a href="mailto: alydiaby2002@yahoo.fr"> <AiOutlineMail /> alydiaby2002@yahoo.fr </a> <br/>
+	                      <a href="mailto: ocisse698@gmail.com"> <AiOutlineMail /> ocisse698@gmail.com </a>
+	                     </small> 
+	                </li> 
 	              </ul>
 	              &nbsp; &nbsp;              
 	         </div>
@@ -59,23 +55,7 @@ const Footer = ()=>{
 	          flex-direction: column;
 	          align-items: center;
 	          background-color: darkgray;
-	        }
-	        footer li a:hover { color: Black;}
-	        footer h1 { color: Black;}
-	        footer span { font-size: 1.5em;}
-	        footer ul { width: 80%;}
-	        footer img {
-	          margin-left: 0.5rem;
-	        }
-	        footer div { 
-	          display: flex;
-	          justify-content: space-between;
-	          align-items: center;
-	          text-decoration: none;
-	          color: lavender;
-	          margin-bottom: 1.5em;
-	        }
-	     
+	        }	              	   
 	      `}</style>
    </div>
    )

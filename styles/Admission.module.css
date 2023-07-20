@@ -17,3 +17,11 @@
 .social .linkUn:hover {color: #2e86c1;  }
 .social .linkDeux:hover {color: #2e86c1;  }
 .social .linkTrois:hover {color: #2e86c1;  }
+.bodyAdmission { width: 75%; }
+@media (max-width: 600px){
+  .admissionContainer {
+	margin: 1em;
+  }
+.bodyAdmission { width: 99%; }
+.actualitesContainer { margin:0.5em; padding:0.6em; }
+}

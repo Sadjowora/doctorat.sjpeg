@@ -7,9 +7,9 @@ function Vocation () {
   return (<div>
           <div className={styles.vocation}>
             <div className={styles.vocationCard}>
-              <div className="flex-column w-75">
+              <div className={"flex-column "+styles.textJoignerNous}>
                   <h1> Souhaiterez vous être <strong style={{color:"#2e86c1"}}>  doctorant </strong> Chez nous <strong style={{color:"#2e86c1"}}> Deposer votre candidature </strong> Maintenant. </h1>
-                   <p> Pour effectuer un doctorat au sein de notre école, il vous faut, avant toute chose, consulter nos critères d’admission. Nous attirons en particulier votre attention sur le fait que nous demandons que les candidats aient effectué des parcours académiques de haute qualité comme une mention en MASTER, un note de mémoire/rapport de stage convainquant. </p>
+                   <p> Pour effectuer un doctorat au sein de notre école, veuillez cliquer sur candidater. </p>
                    <div className="d-flex justify-content-between w-50"> 
                      <Link href="/components/admission" className="btn btn-outline-primary mt-4"> Candidater </Link>
                      <div className="nav-item dropdown mt-4">
@@ -28,10 +28,10 @@ function Vocation () {
              </div>
               <div> <img src="/images/etudiant-doctorant.avif" alt="abordable" /></div>
             </div>
-            <div className={"d-flex justify-content-center "+styles.partenaires}>
+            <div className={styles.partenaires}>
                <div>
                    <h1 className="mb-3"> Partenaires </h1>
-                   <ul className="d-flex justify-content-between">
+                   <ul className={styles.listPartenaires}>
                       <li> 
                          <Link href="https://www.ucad.sn/"> 
                             <img src="/images/univ-cad.jpg" alt="universite-cAd-Dakar" />

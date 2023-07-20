@@ -14,7 +14,7 @@ function Services () {
           <img src="/images/science-juridique.jpg" alt="abordable" />
           <div className="flex-column">
               <h3 className="mb-2"> Sciences Juridique </h3>
-              <p className="m-1 mt-2"> Avec cette formations vous obtiendrez des grandes aptitudes de juriste. Vous récevrez un dîplome suite à la soutenance d'une thèse.</p>
+              <p className="m-1 mt-2"> Ce programme  vise l’approfondissement de la reflexion sur les sciences juridiques. Il comporte des cours, la preparation et la soutenance publique d’une thèse de doctorat. La these peut être préparée en co-direction ou en co-tutelle en trois ans..</p>
           </div>
         </Link>
 
@@ -22,7 +22,7 @@ function Services () {
           <img src="/images/science-po.jpg" alt="abordable" />
           <div className="flex-column">
               <h3 className="mb-2"> Sciences Politiques </h3>
-              <p className="m-1 mt-2"> Vous voullez avoir des hautes etudes en politique cette formation est pour vous. Elle est aussi sanctionner par un dîplome suite à la soutenance d'une thèse. </p>
+              <p className="m-1 mt-2">Ce programme ouvert en 2023  vise l’approfondissement de la reflexion en Science politique. Il comporte des cours, la preparation et la soutenance publique d’une these de doctorat. Les examens de synthèse comportment trois épreuves: majeure, mineure et la redaction d’un Essai.. </p>
           </div>
         </Link>
 
@@ -30,7 +30,7 @@ function Services () {
           <img src="/images/science-economique.jpg" alt="abordable" />
           <div className="flex-column">
               <h3 className="mb-2"> Sciences Economique </h3>
-              <p className="m-1 mt-2"> Si être doctorant en economie est votre rève, votre vocation, venez chez nous ce programme est fait pour vous. Après la soutenance de votre thèse de doctorat vous sera decernez un dîplome. </p>
+              <p className="m-1 mt-2"> Ce programme  vise l’approfondissement de la reflexion sur les sciences  économiques Il comporte des cours, la preparation et la soutenance publique d’une these de doctorat. La these peut être préparée en co-direction ou en co-tutelle en trois ans.. </p>
           </div>
         </Link>
 
@@ -38,7 +38,7 @@ function Services () {
           <img src="/images/science-gestion.webp" alt="abordable" />
           <div className="flex-column">
               <h3 className="mb-2"> Sciences de Gestion </h3>
-              <p className="m-1 mt-2"> Vous souhaitez avoir des grandes capacité dans le domain de la gestion, devenir docteur en gestion envoyez nous votre candidature. Cette formation vous permetra d'obtenir le dîplome de doctorat après la soutenance d'une thèse.  </p>
+              <p className="m-1 mt-2"> Ce programme  vise l’approfondissement de la reflexion en  sciences de Gestion  Il comporte des cours, la preparation et la soutenance publique d’une these de doctorat. La these peut être préparée en co-direction ou en co-tutelle en trois ans..  </p>
           </div>
         </Link>
 

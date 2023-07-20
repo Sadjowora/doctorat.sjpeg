@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Actualites from './actualites.js';
 import { AiOutlineSafety, AiOutlineLike } from 'react-icons/ai';
 import { MdAccessible } from 'react-icons/md';
-
 function Slide () {
 
 return (<div className="flex-column"> 
@@ -17,6 +16,9 @@ return (<div className="flex-column">
             </div>
             <div className="carousel-item">
               <img src="images/neuPhotos/slide-03.jpg" className="d-block w-100" alt="..."/>
+            </div>
+            <div className="carousel-item">
+              <img src="images/neuPhotos/slide-11.jpeg" className="d-block w-100" alt="..."/>
             </div>
             <div className="carousel-item">
               <img src="images/neuPhotos/slide-04.png" className="d-block w-100" alt="..."/>
@@ -39,6 +41,7 @@ return (<div className="flex-column">
             <div className="carousel-item">
               <img src="images/neuPhotos/slide-10.jpg" className="d-block w-100" alt="..."/>
             </div>
+            
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -50,16 +53,16 @@ return (<div className="flex-column">
           </button>
         </div>
         <div className={"flex-column "+styles.slideGlobal}> 
-           <div className="d-flex justify-content-between">              
-              <div className={"flex-column "+styles.axeVocation}> 
+           <div className="d-flex justify-content-between flex-wrap">              
+              <div className={"flex-column mb-2 "+styles.axeVocation}> 
                 <div className={styles.slideInfos}>
-                   <h1> Bienvenue sur le site de l'ED-SJPEG </h1>
+                   <h1> Bienvenue sur le site de l'ED-DESJPEG </h1>
                 </div>
                 <p>
-                  Créée en 2017 l’Ecole doctorale « SJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
+                  Créée en 2017 l’Ecole doctorale « ED-DESJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
                   le Droit, la Science Politique, les Sciences Économiques et les Sciences de Gestion. 
-                  Sa vocation pluridisciplinaire lui permet de développer des synergies entres juristes, politistes, économistes et gestionnaires qui
-                  peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes. Elle compte 78 personnes en son effectif.
+                  Sa vocation pluridisciplinaire lui permet de développer des synergies entres Juristes, Politologues, Economistes et Gestionnaires qui
+                  peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes.<strong>  Elle compte 78 anciens doctorants et 43 cohortes. </strong>
                 </p> 
                 <div>
                   <p>
@@ -73,8 +76,7 @@ return (<div className="flex-column">
                 </div>
                 <div>
                    <p>
-                      Elle a un organe délibérant qui s’appelle le conseil scientifique qui est l’organe stratégique.
-                      Elle a un organe opérationnel qui est la Direction de l’Ecole. <br/>
+                      Elle a un organe délibérant qui s’appelle le conseil scientifique qui est l’organe stratégique. ET un organe opérationnel qui est la Direction de l’Ecole. <br/>
                        L’objectif général poursuivi par nos programmes de troisième cycle est la diversification de l’offre de formation et une spécialisation avancée dans le but de qualifier les formateurs et les chercheurs. <br/> 
                        Ceci va favoriser l’acquisition d’un haut niveau d’autonomie intellectuelle et d’expertise de personne hautement qualifiées dans ces disciplines ou ces champs d’études. 
                        Par l’enseignement, les Ecoles doctorales sont au service de la guinée et de l’Afrique dont nous formons les fils et par la recherche, 
@@ -82,7 +84,7 @@ return (<div className="flex-column">
                    </p>
                 </div>
               </div>
-              <div style={{width: "38%"}} >
+              <div className={styles.contentActu} >
                  <Actualites />
               </div>
            </div>

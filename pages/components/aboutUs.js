@@ -1,5 +1,6 @@
 import styles from '../../styles/AboutUs.module.css';
 import Menue from './barreMenue.js';
+import Vocation from './vocations/vocation.js';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
@@ -9,30 +10,29 @@ return (
            <Menue />
            <div className={styles.container}>
               <div className={"d-flex justify-content-center "+styles.aboutBody}>
-                  <div className="w-75">
-                      <div className={ styles.title }>
-                        <h1> Nouallal  </h1>
-                        <small> Nous delivrons, donner nous tout. </small>
-                      </div>
-                      <p>
-                      Nous ne sommes pas une option, nous sommes un choix
-                      Nous sommes le premier dans le pays parce que nous sommes la solution aux problèmes de livraison de colis de toutes sorte en Guinée.
-                      Avec une sécurité assurée, nous proposons également des trajets à prix économique.
-                      <strong> Qu'est-ce qui nous differencie? </strong>
-                      Nos transporteur peuvent esquiver le trafic aux heures de pointe et vous amener à destination en un tour de main avec notre technologie integrer et la competences des liveurs.
-                       <strong> Alors quand vous pensez livraison, pensez Noullal. </strong>
-                      </p>
-                  </div>
-                  <div className={ styles.imagesApropos }>
-                     <img src="/images/livreurStoper.png" alt="images du livreur" />
-                  </div>
+                  <div className={styles.containtBodyAboutUs} >
+                    <div className={ styles.title }>
+                      <h1> ED-SJPEG / UGLC-SC  </h1>
+                      <small>Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion. </small><br/>
+                      Email: <i> uglcedsjpeg@gmail.com </i>
+                    </div>
+                    <p className="mb-3">
+                    Créée en 2017 l’Ecole doctorale « SJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
+                    le Droit, la Science Politique, les Sciences Économiques et les Sciences de Gestion. 
+                    Sa vocation pluridisciplinaire lui permet de développer des synergies entres juristes, politistes, économistes et gestionnaires qui
+                    peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes. Elle compte 78 personnes en son effectif.
+                    </p>
+                     <p className="mb-3">
+                      À chaque doctorant admis au sein de l’ED-DESPEG, une formation pluridisciplinaire est offerte qui est conçue et organisée pour améliorer l’apprentissage de la recherche ainsi que pour favoriser le développement de recherche répondant aux grands défis sociétaux dont la révolution numérique, la transition écologique, et les nouveaux défis de la mondialisation.
+                    </p> 
+                     <p>
+                        L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion (EDJPEG), est l’une des deux Ecoles Doctorales dont dispose Université Générale lansana conté de sonfonia (UGLC-SC).
+                     </p>
+                    <div className={styles.footer} >
+                        <Vocation />
+                    </div>
+                </div> 
               </div>
-                  <div className={ styles.footer }>
-                      <h4> Nous avont une équipe dynamique </h4>
-                      <small> Réjoigner nous et faite progresser votre carrière. </small>
-
-                      <div className="w-50"> <button className="btn btn-dark mt-5"> Rejoindre Notre equipe </button> </div>
-                  </div>
         </div>
      </div>
   )

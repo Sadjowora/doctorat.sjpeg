@@ -50,9 +50,8 @@ padding-top:
           animation: 1s linear 0s infinite alternate move_eye;
           /*background-image:linear-gradient(to bottom, #f8f8ff 80%, rgba(0, 0, 0, 0.200));
           padding-bottom: 0; */
-        }
-@-webkit-keyframes move_eye { from { width: 22.9em; } to {width: 23em; }  }
-        @keyframes move_eye { from {  width: 22.9em; } to { width: 23em; }  }
+        } 
+ @keyframes move_eye { from {  width: 22.9em; } to { width: 23em; }  }
 .actualitesContainer {
   overflow-y: scroll;
   height: 470px;
@@ -66,3 +65,16 @@ padding-top:
   padding: 0.3em;
   width: 90%; 
  }
+ .contentActu { width: 38% }
+ 
+@media (max-width: 600px) {
+ .slideInfos h1{   
+   font-size: 1.5em; 
+   font-weight: 800;
+  }
+  .containerSlide { height:15em; }
+  .slideGlobal { margin: 0.5em;  width: 100%; }
+  .containerSlide {margin-top: 2em; }
+  .contentActu { width: 98%; }
+  .axeVocation { width: 99%; }
+}

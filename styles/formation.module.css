@@ -21,3 +21,47 @@
 	border: 1px solid dodgerblue;
 	padding: 0.5em;
  }
+ .menueFormation { 
+ 	display: flex;
+ 	flex-direction: column;
+  }
+  .containtFormation {
+  	   display: flex;
+ 	   flex-direction: row;
+ 	   justify-content: space-between;
+ 	   flex-wrap: wrap;
+  }
+  .containtMenueFormation {
+  	width: 24%;
+  	margin-top: 1em;
+  }
+  .containtBodyFormation {width: 75%; line-height: 1.8; padding-bottom: 1em;}
+
+  @media (max-width: 600px) {
+  	.menueFormation {
+  		display: flex;
+ 	   flex-direction: row;
+ 	   justify-content: space-between;
+ 	   flex-wrap: wrap;
+  	}
+  	.containtFormation {
+  	   display: flex;
+ 	   flex-direction: column;
+ 	   justify-content: space-between;
+ 	   flex-wrap: wrap;
+    }
+   .formation { margin: 0.5em; }
+   .containtMenueFormation {
+  	 width: 99%;
+  	 margin-top: 1em;
+    }
+   .formation .listFormation li{
+	 background-color: #f8f8ff;
+	 padding: 0.2em;
+	 margin-bottom: 0.1em;
+	 border: 1px solid gray;
+	 border-radius: 8px;
+	 font-size: 0.4em;
+   }
+   .containtBodyFormation {width: 99%;}
+  }

@@ -9,5 +9,56 @@
    height: auto;
    border-right: 4px solid gray;
 }
-.lienImg { width: 47%; }
-.lienImg img{ border-radius: 8px; }
+.lienImg {  
+   width: 17em;
+    }
+.lienImg img{ border-radius: 8px; width: 100%;}
+.containtBody {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.listPhoto{
+   width: 40%; 
+   height: 616px; 
+   background-color: gainsboro; 
+   padding: 0.2em; overflow-y: scroll;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+@media (max-width: 800px){
+  .containtBody {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 100%;
+  }
+ .listPhoto {width:100%; }
+.galerieSlider { width:100%; }
+}
+@media (max-width: 650px){
+   .galerie { margin:0.1em; }
+   .galerieSlider { width:100%; }
+   .listPhoto { 
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     width: 600px;
+     overflow-x: scroll;
+   }
+  .containtBody {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 100%;
+  }
+   .lienImg { width: 30%; }
+   .galerie  h1{ color: dodgerblue;  font-size: 2em; padding: 0.5em; margin: 0;}
+}

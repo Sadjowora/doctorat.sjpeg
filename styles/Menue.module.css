@@ -58,9 +58,14 @@
  }
 
 .menueCollapse {
-  width: 70%; text-align: end;
+  width: 62%; text-align: end;
   display: flex; 
   flex-direction: row;
   justify-content: space-around;
   margin-right: 0.5em;
+}
+.titleExplication {  font-size: 0.6em; color:#ebf5fb;  }
+@media (max-width: 600px) {
+   .title { font-size: 1rem; }
+   .titleExplication { display:none;  }
 }

@@ -20,18 +20,11 @@
   margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
-}
-
-.title {
   text-align: center;
 }
-
-.title,
+ 
 .description {
   text-align: center;
-}
-
-.description {
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -81,10 +74,48 @@
   width: 8em;
   border-radius: 6px; 
 }
+.footer div { 
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: lavender;
+  margin-bottom: 1.5em;
+}
+.lienFooter {
+   display: flex;
+   direction: row;
+  justify-content: space-between;
+}
+.footer li a:hover { color: Black;}
+.footer h1 { color: Black;}
+.footer span { font-size: 1.5em;}
+.footer ul { width: 80%;}
+.footer img {
+  margin-left: 0.5rem;
+} 
+.linkFooter { width:14%; }
+.titleEcoleFooter { width: 50% }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .footer div { 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center; 
   }
-}
+
+  .lienFooter {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }  
+  .footer span { font-size: 2.5em; }
+  .footer ul { width: 95%;}
+  .logo { 
+    width: 40em;
+    border-radius: 6px; 
+   }
+  .linkFooter { width:60%; }
+  .titleEcoleFooter { width: 95%; }
+ }
