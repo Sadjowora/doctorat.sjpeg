@@ -26,8 +26,8 @@ function Admission (){
 			    	 <p>
 			    	  Les Admissions à l'Ecole Doctorale des Sciences Juridiques, Politiques, Economiques et de Gestion commencent par un appel
 			    	  à candidature de la Direction. Ensuite les candidats boursiers et non boursiers sont invités à déposer leurs dossiers, qui seront étudiés
-			    	  par l'instance charger au admission. 
-			    	  Les résultats seront communiqués aux futurs étudiants. Le dernière appel à candidature est:
+			    	  par l'instance charger aux admissions. 
+			    	  Les résultats seront communiqués aux futurs doctorants. Le dernier appel à candidature est:
 			    	 </p>			       
 			        <h3 className="mb-3"> APPEL A CANDIDATURE 2023 </h3>
 				   <div>
@@ -47,7 +47,7 @@ function Admission (){
 				   </ul>
 				   <div>
 				   	 <p className="mt-4">
-				   	 	<strong> NB: </strong> Les dossiers doivent être déposés au Secrétariat de la Direction contre récépissé de depôts du 09 au 29 janvier 2023.
+				   	 	<strong> NB: </strong> Les dossiers doivent être déposés au Secrétariat de la Direction contre récépissé de depôt du 09 au 29 janvier 2023.
 				   	    Les candidats retenues seront informés pour la suite des formalités administratives et pédagigiques.  
 				   	 </p>
 				   </div>

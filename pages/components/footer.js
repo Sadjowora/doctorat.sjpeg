@@ -12,14 +12,14 @@ const Footer = ()=>{
 	               rel="noopener noreferrer"
 	               className={styles.linkFooter}
 	             >
-	               <img src="/images/logo_ecole_doctorale.jpg" alt="Noullal" className={styles.logo} />
-	               <h1> ED-SJPEG </h1>
+	               <img src="/images/logo_ecole_doctorale.jpg" alt="ED-DESJPEG" className={styles.logo} />
+	               <h1> ED-DESJPEG </h1>
 	             </a>
 
 	              <ul className={"m-2 ml -0 "+styles.lienFooter}>
 	                <li className={"nav-item "+styles.titleEcoleFooter} >
 	                  <div className="nav-link flex-column"> 
-	                    <h3> L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion (EDJPEG) </h3>                     
+	                    <h3> L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion (ED-DESJPEG) </h3>                     
 	                    <p> <strong style={{color: "#000"}}> Adresse: </strong> <AiOutlineHome /> Sonfonia - Conakry, République de Guinée </p>
 	                  </div>
 	                </li>
@@ -42,7 +42,7 @@ const Footer = ()=>{
 	              </ul>
 	              &nbsp; &nbsp;              
 	         </div>
-	        <p> ED-SJPEG 2023. All rights reserved. </p>
+	        <p> ED-DESJPEG 2023. All rights reserved. </p>
 	      </footer>
 
 	      <style jsx>{`	      

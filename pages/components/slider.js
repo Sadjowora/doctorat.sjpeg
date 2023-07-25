@@ -61,8 +61,10 @@ return (<div className="flex-column">
                 <p>
                   Créée en 2017 l’Ecole doctorale « ED-DESJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
                   le Droit, la Science Politique, les Sciences Économiques et les Sciences de Gestion. 
-                  Sa vocation pluridisciplinaire lui permet de développer des synergies entres Juristes, Politologues, Economistes et Gestionnaires qui
-                  peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes.<strong>  Elle compte 78 anciens doctorants et 43 cohortes. </strong>
+                  Sa vocation pluridisciplinaire lui permet de développer des synergies entre Juristes, Politologues, Economistes et Gestionnaires qui
+                  peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes. 
+                  l’Ecole a fonctionné à temps plein durant l’année universitaire 2022-2023.<strong>  78 doctorants ont été inscrits à l’ED-DESJPEG  par le passé ( cohorte 1 et  2). La 3ème cohorte recrutée  en 2023, tous programmes compris, compte 43 doctorants. 
+                    </strong>
                 </p> 
                 <div>
                   <p>
@@ -78,9 +80,9 @@ return (<div className="flex-column">
                    <p>
                       Elle a un organe délibérant qui s’appelle le conseil scientifique qui est l’organe stratégique. ET un organe opérationnel qui est la Direction de l’Ecole. <br/>
                        L’objectif général poursuivi par nos programmes de troisième cycle est la diversification de l’offre de formation et une spécialisation avancée dans le but de qualifier les formateurs et les chercheurs. <br/> 
-                       Ceci va favoriser l’acquisition d’un haut niveau d’autonomie intellectuelle et d’expertise de personne hautement qualifiées dans ces disciplines ou ces champs d’études. 
+                       Ceci va favoriser l’acquisition d’un haut niveau d’autonomie intellectuelle et d’expertise de personnes hautement qualifiées dans ces disciplines ou ces champs d’études. 
                        Par l’enseignement, les Ecoles doctorales sont au service de la guinée et de l’Afrique dont nous formons les fils et par la recherche, 
-                       nous nous intéressons au problématiques du développement de notre continent et au débat scientifique international.
+                       nous nous intéressons au problématique du développement de notre continent et au débat scientifique international.
                    </p>
                 </div>
               </div>
