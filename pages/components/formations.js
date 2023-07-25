@@ -157,7 +157,7 @@ function Formation () {
                     <strong> Les Séminaires restant sont: </strong>
                     <ul>
                     <li> Séminaire commun : Institutions judiciaires </li>
-                    <li> Option droit privé : Droit des affai1res en Afrique : Dr Sekou KOÏTA </li>
+                    <li> Option droit privé : Droit des affaires en Afrique : Dr Sekou KOÏTA </li>
                     <li> Option droit public: Théorie générale de l’Etat:  Pr Joël Adelui </li>
                     <li> Crise et constitutionnalisme en Afrique : Pr Alia DIABY </li> 
                   </ul>
@@ -175,7 +175,7 @@ function Formation () {
                       <ul>
                         <li> - Méthodologie de la thèse - Cours commun: Dr Idrissa yaya DANDY( UCAD Sénégal) </li>
                         <li> - Épistémologie en Sciences Economiques et de Gestion : Pr Ahmadou Oury  Koré BAH </li> 
-                        <li> Séminaires restants: - Économétrie avancée, Macoéconomie du développement :  </li>
+                        <li> Séminaires restants: - Économétrie avancée, Macroéconomie du développement :  </li>
                         <li> - Le Séminaire de logiciels statistiques et économétriques ( Stat,Éviers, Excel avancée, kobo- Toolbox SPSS) est programmé entre le 1er et le 4 août : Dr Mamoudou BAGAGA ( MESRSI)</li>
                       </ul>
                     <h4> Sciences  de Gestion : </h4>
@@ -247,15 +247,15 @@ function Formation () {
                          <li>  - Séminaire en Métodologie de la thèse </li>
                          <li> - Séminaire  en épistémologie juridique </li>
                          <li> - Séminaire en Institutions judiciaires </li>
-                        <strong> Séminaires complementaires pour l’option droit public: </strong>
+                        <strong> Séminaires complementaires pour l’option droit public: </strong><br/>
                         <li> - Théorie générale de l’Etat </li>
                          <li> - Crise et constitutionnalisme en Afrique </li>
-                        <strong> Séminaires complementaires pour l’option droit privé: </strong>
+                        <strong> Séminaires complementaires pour l’option droit privé: </strong><br/>
                          <li> - Théorie générale des obligations </li>
                          <li> - Droit des affaires en Afrique. </li>
                      </ul>
                      <p>
-                       La thèse peut être préparée en co-direction ou en co-tutelle en trois ans. Lorsque la thèse est achevée, le directeur de thèse autorise le dépôt à l’Ecole doctorale. Des Rapporteurs externes et internes sont désignés et si les rapports de soutenanbilité sont concluants. Le jury est constitué. La soutenance est programmée et de preference en présentiel.
+                       La thèse peut être préparée en co-direction ou en co-tutelle en trois ans. Lorsque la thèse est achevée, le directeur de thèse autorise le dépôt à l’Ecole doctorale. Des rapporteurs externes et internes sont désignés et si les rapports de soutenanbilité sont concluants. Le jury est constitué. La soutenance est programmée et de preference en présentiel.
                       </p>
                       <p>
                        <h2>2. Le Programme de doctorat Sciences politiques: </h2><br/>                       
@@ -273,7 +273,7 @@ function Formation () {
                      <p>
                       <strong> Les examens de synthèse comportent trois épreuves: </strong>  majeure, mineure et la redaction d’un Essai.
                       La thèse préparée est présentée à l’Ecole doctorale avec l’autorisation du Directeur de these. 
-                      Le directeur de l’Ecole désigne des Rapporteurs externes et internes. Si les rapports sont concluants, 
+                      Le directeur de l’Ecole désigne des rapporteurs externes et internes. Si les rapports sont concluants, 
                       le jury est constitué et la soutenance peut avoir lieu.
                      </p>
 
@@ -290,7 +290,7 @@ function Formation () {
                         <li> - Seminaire en logiciels économétriques et statistiques </li>
                       </ul>
                      <p>
-                        La these peut être préparée en co-direction ou en co-tutelle en trois ans. Lorsque la these est achevée, le directeur de these autorise le dépôt à l’Ecole doctorale. Des Rapporteurs externs et internes sont désignés et si les rapports de soutenanbilité sont concluants. Le jury est constitué. La soutenance est programmée et de preference en présentiel.
+                        La these peut être préparée en co-direction ou en co-tutelle en trois ans. Lorsque la these est achevée, le directeur de these autorise le dépôt à l’Ecole doctorale. Des rapporteurs externs et internes sont désignés et si les rapports de soutenanbilité sont concluants. Le jury est constitué. La soutenance est programmée et de preference en présentiel.
                      </p>
                      <h2>4. Le programme de doctorat en Sciences de Gestion </h2><br/>
                       <p>
@@ -305,7 +305,7 @@ function Formation () {
                       <li> - Logiciels économétriques et statistiques. </li>                      
                      </ul>
                       <p>
-                        La these peut être préparée en co-direction ou en co-tutelle en trois ans. Lorsque la these est achevée, le directeur de these autorise le dépôt à l’Ecole doctorale. Des Rapporteurs externs et internes sont désignés et si les rapports de soutenanbilité sont concluants. Le jury est constitué. La soutenance est programmée et de preference en présentiel.
+                        La these peut être préparée en co-direction ou en co-tutelle en trois ans. Lorsque la these est achevée, le directeur de these autorise le dépôt à l’Ecole doctorale. Des rapporteurs externs et internes sont désignés et si les rapports de soutenanbilité sont concluants. Le jury est constitué. La soutenance est programmée et de preference en présentiel.
                       </p>
                 </div>                           
                </div>

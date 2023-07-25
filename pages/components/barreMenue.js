@@ -26,7 +26,7 @@ return (
               <Link className="navbar-brand d-flex" href="/" style={{width: "36%"}} >
                 <img src="/images/logo_ecole_doctorale.jpg" alt="#" width="80" height="50" className="d-inline-block rounded align-text-center"/>&nbsp;
                 <div className="flex-column">
-                       <label className={styles.title}> ED-DESJPEG / UGLC-SC</label><br/>
+                       <label className={styles.title}> ED-SJPEG / UGLC-SC</label><br/>
                        <small className={styles.titleExplication} > L’Ecole Doctorale des Sciences Juridiques, Politiques, Economiques et de Gestion </small>                     
                 </div>
               </Link>

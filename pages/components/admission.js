@@ -32,7 +32,7 @@ function Admission (){
 			        <h3 className="mb-3"> APPEL A CANDIDATURE 2023 </h3>
 				   <div>
 				   	  <p> La Direction de l'Ecole Doctorale des Sciences Juridiques, Politiques, Economiques et de Gestion
-				   	  lance un appel à candidature pour le recutement de la 3eme cohorte de doctorants. </p>
+				   	  lance un appel à candidature pour le recrutement de la 3eme cohorte de doctorants. </p>
 				   </div>	
 				   <h3> DOSSIERS A FOURNIR </h3>
 				   <ul>
