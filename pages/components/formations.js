@@ -157,8 +157,10 @@ function Formation () {
                     <strong> Les Séminaires restant sont: </strong>
                     <ul>
                     <li> Séminaire commun : Institutions judiciaires </li>
-                    <li> Option droit privé : Droit des affaires en Afrique : Dr Sekou KOÏTA </li>
-                    <li> Option droit public: Théorie générale de l’Etat:  Pr Joël Adelui </li>
+                    <strong> Option droit privé  </strong>
+                    <li> Droit des affaires en Afrique : Dr Sekou KOÏTA </li>
+                    <strong> Option droit public </strong>
+                    <li> Théorie générale de l’Etat:  Pr Joël Adelui </li>
                     <li> Crise et constitutionnalisme en Afrique : Pr Alia DIABY </li> 
                   </ul>
                   <h4> Programme Sciences Politiques : </h4>
@@ -175,7 +177,8 @@ function Formation () {
                       <ul>
                         <li> - Méthodologie de la thèse - Cours commun: Dr Idrissa yaya DANDY( UCAD Sénégal) </li>
                         <li> - Épistémologie en Sciences Economiques et de Gestion : Pr Ahmadou Oury  Koré BAH </li> 
-                        <li> Séminaires restants: - Économétrie avancée, Macroéconomie du développement :  </li>
+                        <strong> Séminaires restants </strong>
+                        <li> - Économétrie avancée, Macroéconomie du développement   </li>
                         <li> - Le Séminaire de logiciels statistiques et économétriques ( Stat,Éviers, Excel avancée, kobo- Toolbox SPSS) est programmé entre le 1er et le 4 août : Dr Mamoudou BAGAGA ( MESRSI)</li>
                       </ul>
                     <h4> Sciences  de Gestion : </h4>

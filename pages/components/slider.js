@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Actualites from './actualites.js';
 import { AiOutlineSafety, AiOutlineLike } from 'react-icons/ai';
 import { MdAccessible } from 'react-icons/md';
+
 function Slide () {
 
 return (<div className="flex-column"> 
@@ -56,24 +57,24 @@ return (<div className="flex-column">
            <div className="d-flex justify-content-between flex-wrap">              
               <div className={"flex-column mb-2 "+styles.axeVocation}> 
                 <div className={styles.slideInfos}>
-                   <h1> Bienvenue sur le site de l'ED-DESJPEG </h1>
+                   <h1> Bienvenue sur le site de l'ED-SJPEG </h1>
                 </div>
                 <p>
-                  Créée en 2017 l’Ecole doctorale « ED-DESJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
+                  Créée en 2017 l’Ecole doctorale « ED-SJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
                   le Droit, la Science Politique, les Sciences Économiques et les Sciences de Gestion. 
                   Sa vocation pluridisciplinaire lui permet de développer des synergies entre Juristes, Politologues, Economistes et Gestionnaires qui
                   peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes. 
-                  l’Ecole a fonctionné à temps plein durant l’année universitaire 2022-2023.<strong>  78 doctorants ont été inscrits à l’ED-DESJPEG  par le passé ( cohorte 1 et  2). La 3ème cohorte recrutée  en 2023, tous programmes compris, compte 43 doctorants. 
+                  l’Ecole a fonctionné à temps plein durant l’année universitaire 2022-2023.<strong>  78 doctorants ont été inscrits à l’ED-SJPEG  par le passé ( cohorte 1 et  2). La 3ème cohorte recrutée  en 2023, tous programmes compris, compte 43 doctorants. 
                     </strong>
                 </p> 
                 <div>
                   <p>
-                    À chaque doctorant admis au sein de l’ED-DESPEG, une formation pluridisciplinaire est offerte qui est conçue et organisée pour améliorer l’apprentissage de la recherche ainsi que pour favoriser le développement de recherche répondant aux grands défis sociétaux dont la révolution numérique, la transition écologique, et les nouveaux défis de la mondialisation.
+                    À chaque doctorant admis au sein de l’ED-SPEG, une formation pluridisciplinaire est offerte qui est conçue et organisée pour améliorer l’apprentissage de la recherche ainsi que pour favoriser le développement de recherche répondant aux grands défis sociétaux dont la révolution numérique, la transition écologique, et les nouveaux défis de la mondialisation.
                   </p>
                 </div> 
                 <div>
                    <p>
-                      L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion (EDJPEG), est l’une des deux Ecoles Doctorales dont dispose Université Générale lansana conté de sonfonia (UGLC-SC).
+                      L’Ecole Doctorale en Sciences Juridiques, Politiques, Economiques et de Gestion (ED-SJPEG), est l’une des deux Ecoles Doctorales dont dispose Université Générale lansana conté de sonfonia (UGLC-SC).
                    </p> 
                 </div>
                 <div>

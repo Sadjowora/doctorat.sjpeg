@@ -11,23 +11,19 @@ const Actualites = ()=>{
                   </div>
                   <div className={"p-2 "+styles.actualitesContainer}>
                      <div className={styles.cardActualites} >
-                     	<Link href="#" >
-                     	    <h3>DEBUT DES INSCRIPTIONS DES DOCTORANTS GUINEEENS</h3>
-                     	    <label> <AiOutlineCalendar /> <small>  1 juillet 2023 </small> </label>
+                     	<Link href="#" > 
+                     	    <h3>DEPÔT DE DOSSIER POUR LA CANDIDATURE DE LA NOUVELLE COHORTE</h3>
+                     	    <label> <AiOutlineCalendar /> <small> Du 09 au 29 janvier 2023.  </small> </label>
                      	</Link>
                      </div>
                      <div className={styles.cardActualites} >
-                     	<Link href="#" >
-                     	    <h3>Les reinscriptions en doctorants pour 2023-2024 sont ouverts depuis le 30 juin 2023. date limite le 30 septembre 2023.</h3>
-                     	     <label> <AiOutlineCalendar /> <small> 2 juillet 2023  </small> </label>
+                     	<Link href="#" >  
+                     	    <h3>LE SEMINAIRE DE LOGICIELS STATISTIQUES ET ECONOMETRIQUES
+                            ( Stat,Éviers, Excel avancée, kobo- Toolbox SPSS) est programmé entre le 1er et le 4 août :
+                             Dr Mamoudou BAGAGA ( MESRSI)</h3>
+                     	     <label> <AiOutlineCalendar /> <small> Du 1er et le 4 août  </small> </label>
                      	</Link>
-                     </div>
-                     <div className={styles.cardActualites} >
-                     	<Link href="#" >
-                     	    <h3>CONCOURS CONTRACT DOCTORAUX 2023 </h3>
-                     	     <label> <AiOutlineCalendar /> <small> 15 juillet 2023  </small> </label>
-                     	</Link>
-                     </div>
+                     </div> 
                      <div className={styles.cardActualites} >
                      	<Link href="#" >
                      	    <h3>DEBUT DES COURS 2023-2024 le 10 octobre 2023 </h3>

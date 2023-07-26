@@ -27,7 +27,7 @@ function Services () {
         </Link>
 
         <Link href="/science-juridique" className={styles.card}>
-          <img src="/images/science-economique.jpg" alt="abordable" />
+          <img src="/images/science-economique.jpg" alt="image science-juridique" />
           <div className="flex-column">
               <h3 className="mb-2"> Sciences Economiques</h3>
               <p className="m-1 mt-2"> Ce programme  vise l’approfondissement de la reflexion sur les sciences  économiques Il comporte des cours, la preparation et la soutenance publique d’une these de doctorat. La these peut être préparée en co-direction ou en co-tutelle en trois ans.. </p>
@@ -35,7 +35,7 @@ function Services () {
         </Link>
 
         <Link href="/science-juridique" className={styles.card}>
-          <img src="/images/science-economique.jpg" alt="abordable" />
+          <img src="/images/science-gestion.webp" alt="science-gestion" />
           <div className="flex-column">
               <h3 className="mb-2"> Sciences de Gestion</h3>
               <p className="m-1 mt-2"> Ce programme  vise l’approfondissement de la reflexion sur les sciences de gestion Il comporte des cours, la preparation et la soutenance publique d’une these de doctorat. La these peut être préparée en co-direction ou en co-tutelle en trois ans.. </p>
