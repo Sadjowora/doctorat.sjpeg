@@ -61,7 +61,7 @@ return (<div className="flex-column">
                 </div>
                 <p>
                   Créée en 2017 l’Ecole doctorale « ED-SJPEG » prépare au Doctorat dans quatre grands champs disciplinaires :
-                  le Droit, la Science Politique, les Sciences Économiques et les Sciences de Gestion. 
+                  les Sciences Juridiques, les Sciences Politiques, les Sciences Économiques et les Sciences de Gestion. 
                   Sa vocation pluridisciplinaire lui permet de développer des synergies entre Juristes, Politologues, Economistes et Gestionnaires qui
                   peuvent avoir des champs de recherches voisins et complémentaires tout en mobilisant des méthodologies différentes. 
                   l’Ecole a fonctionné à temps plein durant l’année universitaire 2022-2023.<strong>  78 doctorants ont été inscrits à l’ED-SJPEG  par le passé ( cohorte 1 et  2). La 3ème cohorte recrutée  en 2023, tous programmes compris, compte 43 doctorants. 

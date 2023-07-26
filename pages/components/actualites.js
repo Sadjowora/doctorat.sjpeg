@@ -21,19 +21,19 @@ const Actualites = ()=>{
                      	    <h3>LE SEMINAIRE DE LOGICIELS STATISTIQUES ET ECONOMETRIQUES
                             ( Stat,Éviers, Excel avancée, kobo- Toolbox SPSS) est programmé entre le 1er et le 4 août :
                              Dr Mamoudou BAGAGA ( MESRSI)</h3>
-                     	     <label> <AiOutlineCalendar /> <small> Du 1er et le 4 août  </small> </label>
+                     	     <label> <AiOutlineCalendar /> <small> Du 1er au 4 août  </small> </label>
                      	</Link>
                      </div> 
                      <div className={styles.cardActualites} >
                      	<Link href="#" >
-                     	    <h3>DEBUT DES COURS 2023-2024 le 10 octobre 2023 </h3>
-                     	     <label> <AiOutlineCalendar /> <small> 29 juin 2023  </small> </label>
+                     	    <h3>DEBUT DES COURS OCTOBRE </h3>
+                     	     <label> <AiOutlineCalendar /> <small> Octobre  </small> </label>
                      	</Link>
                      </div>
                      <div className={styles.cardActualites} >
                      	<Link href="#" >
-                     	    <h3>FIN DES COURS 2023-2024 le 30 juin 2024</h3>
-                     	     <label> <AiOutlineCalendar /> <small> 29 juin 2023  </small> </label>
+                     	    <h3>FIN DES COURS JUILLET</h3>
+                     	     <label> <AiOutlineCalendar /> <small> Juillet </small> </label>
                      	</Link>
                      </div>
                   </div>

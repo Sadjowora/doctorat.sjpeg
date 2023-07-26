@@ -148,18 +148,18 @@ function Formation () {
                   <h4> Programme Sciences Juridiques  </h4>
                   <strong> Cours communs  </strong>
                     <ul>                     
-                        <li> - Méthodologie de la thèse : Pr Meissa Diakhaté (UCAD Sénégal)
-                        Option droit privé  </li>
-                        <li> -Théorie générale des obligations : Pr Isaac yankhomba N’diaye 
-                        Option droit public  </li>
+                        <li> - Méthodologie de la thèse : Pr Meissa Diakhaté (UCAD Sénégal)</li>
+                        <i> <strong> Option droit privé:  </strong> </i>
+                        <li> -Théorie générale des obligations : Pr Isaac yankhomba N’diaye</li>
+                        <strong> <i> Option droit public: </i> </strong>
                         <li> -Systèmes politiques comparés : Dr Sadou DIALLO (UGLC-SC) </li>
                     </ul>
                     <strong> Les Séminaires restant sont: </strong>
                     <ul>
                     <li> Séminaire commun : Institutions judiciaires </li>
-                    <strong> Option droit privé  </strong>
+                    <strong> <i> Option droit privé  </i> </strong>
                     <li> Droit des affaires en Afrique : Dr Sekou KOÏTA </li>
-                    <strong> Option droit public </strong>
+                    <strong> <i> Option droit public </i></strong>
                     <li> Théorie générale de l’Etat:  Pr Joël Adelui </li>
                     <li> Crise et constitutionnalisme en Afrique : Pr Alia DIABY </li> 
                   </ul>
